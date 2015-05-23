@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomTableCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UICollectionView *horizontalCollectionView;
+@property (weak, nonatomic) IBOutlet UILabel *sectionLabel;
+@property (nonatomic, weak) id<UICollectionViewDelegateFlowLayout, UICollectionViewDataSource> collectionDelegate;
 @end

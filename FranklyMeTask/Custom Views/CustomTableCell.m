@@ -8,16 +8,30 @@
 
 #import "CustomTableCell.h"
 
+@interface CustomTableCell ()
+
+@end
+
 @implementation CustomTableCell
 
 - (void)awakeFromNib {
-    // Initialization code
+  // Initialization code
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+
+
+- (void)setCollectionDelegate:(id<UICollectionViewDelegateFlowLayout,UICollectionViewDataSource>)collectionDelegate
+{
+  _collectionDelegate = collectionDelegate;
+  [self.horizontalCollectionView setDelegate:collectionDelegate];
+  [self.horizontalCollectionView setDataSource:collectionDelegate];
+  [self.horizontalCollectionView reloadData];
 }
 
 @end

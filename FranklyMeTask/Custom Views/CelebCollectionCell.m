@@ -8,6 +8,15 @@
 
 #import "CelebCollectionCell.h"
 
+@interface CelebCollectionCell ()
+@property (weak, nonatomic) IBOutlet UIButton *celebImage;
+@property (weak, nonatomic) IBOutlet UILabel *celebLabel;
+@property (weak, nonatomic) IBOutlet UIButton *celebsCountInCategoryButton;
+@property (weak, nonatomic) IBOutlet UIButton *celebFollowButton;
+
+@end
+
+
 @implementation CelebCollectionCell
 
 @end

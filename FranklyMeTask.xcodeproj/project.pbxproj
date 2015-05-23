@@ -14,6 +14,9 @@
 		574690531B0E314B004E2A3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574690521B0E314B004E2A3E /* Images.xcassets */; };
 		574690561B0E314B004E2A3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574690541B0E314B004E2A3E /* LaunchScreen.xib */; };
 		574690621B0E314B004E2A3E /* FranklyMeTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574690611B0E314B004E2A3E /* FranklyMeTaskTests.m */; };
+		574690701B0E3AB9004E2A3E /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5746906F1B0E3AB9004E2A3E /* CustomTableCell.m */; };
+		574690761B0E3AF7004E2A3E /* CelebCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574690751B0E3AF7004E2A3E /* CelebCollectionCell.m */; };
+		57A16F421B0F94A4007C8407 /* SampleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A16F411B0F94A4007C8407 /* SampleImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		5746905B1B0E314B004E2A3E /* FranklyMeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FranklyMeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		574690601B0E314B004E2A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574690611B0E314B004E2A3E /* FranklyMeTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FranklyMeTaskTests.m; sourceTree = "<group>"; };
+		5746906E1B0E3AB9004E2A3E /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		5746906F1B0E3AB9004E2A3E /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		574690741B0E3AF7004E2A3E /* CelebCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebCollectionCell.h; sourceTree = "<group>"; };
+		574690751B0E3AF7004E2A3E /* CelebCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebCollectionCell.m; sourceTree = "<group>"; };
+		57A16F411B0F94A4007C8407 /* SampleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		574690441B0E314B004E2A3E /* FranklyMeTask */ = {
 			isa = PBXGroup;
 			children = (
+				57A16F411B0F94A4007C8407 /* SampleImage.png */,
+				5746906B1B0E3A95004E2A3E /* Custom Views */,
+				5746906C1B0E3A95004E2A3E /* Network */,
+				5746906D1B0E3A95004E2A3E /* Parsing */,
 				574690491B0E314B004E2A3E /* AppDelegate.h */,
 				5746904A1B0E314B004E2A3E /* AppDelegate.m */,
 				5746904C1B0E314B004E2A3E /* ViewController.h */,
@@ -117,6 +129,31 @@
 				574690601B0E314B004E2A3E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5746906B1B0E3A95004E2A3E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5746906E1B0E3AB9004E2A3E /* CustomTableCell.h */,
+				5746906F1B0E3AB9004E2A3E /* CustomTableCell.m */,
+				574690741B0E3AF7004E2A3E /* CelebCollectionCell.h */,
+				574690751B0E3AF7004E2A3E /* CelebCollectionCell.m */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5746906C1B0E3A95004E2A3E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5746906D1B0E3A95004E2A3E /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Parsing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +239,7 @@
 				574690511B0E314B004E2A3E /* Main.storyboard in Resources */,
 				574690561B0E314B004E2A3E /* LaunchScreen.xib in Resources */,
 				574690531B0E314B004E2A3E /* Images.xcassets in Resources */,
+				57A16F421B0F94A4007C8407 /* SampleImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574690761B0E3AF7004E2A3E /* CelebCollectionCell.m in Sources */,
 				5746904E1B0E314B004E2A3E /* ViewController.m in Sources */,
 				5746904B1B0E314B004E2A3E /* AppDelegate.m in Sources */,
 				574690481B0E314B004E2A3E /* main.m in Sources */,
+				574690701B0E3AB9004E2A3E /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +458,7 @@
 				574690671B0E314B004E2A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		574690681B0E314B004E2A3E /* Build configuration list for PBXNativeTarget "FranklyMeTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +467,7 @@
 				5746906A1B0E314B004E2A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
