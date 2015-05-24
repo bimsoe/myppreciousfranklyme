@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CelebView.h"
 
-@interface CustomTableCell : UITableViewCell
+@protocol CelebCategoryRowProtocol <CelebDatasource>
+- (NSInteger)numberOfItemsForRow:(NSInteger)row;
+- (NSString *)captionForRow:(NSInteger)row;
+@end
+
+
+
+@interface CustomTableCell : UITableViewCell <UICollectionViewDelegateFlowLayout, UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UICollectionView *horizontalCollectionView;
 @property (weak, nonatomic) IBOutlet UILabel *sectionLabel;
-@property (nonatomic, weak) id<UICollectionViewDelegateFlowLayout, UICollectionViewDataSource> collectionDelegate;
+@property (nonatomic) NSInteger rowNumber;
+@property (nonatomic, weak) id<CelebDelegate, CelebCategoryRowProtocol> celebCategoryRowDataSource;
+- (CelebViewCell *)celebViewCellAtIndex:(NSInteger)celebViewIndex;
 @end

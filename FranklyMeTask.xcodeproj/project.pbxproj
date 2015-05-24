@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571F30211B1044C800872E6A /* ServerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F301E1B1044C800872E6A /* ServerDataManager.m */; };
+		571F30221B1044C800872E6A /* ServerDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F30201B1044C800872E6A /* ServerDataParser.m */; };
+		571F30261B10495200872E6A /* CelebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F30251B10495200872E6A /* CelebView.m */; };
+		571F30291B10495C00872E6A /* CelebData.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F30281B10495C00872E6A /* CelebData.m */; };
+		571F302C1B104A5100872E6A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F302B1B104A5100872E6A /* Reachability.m */; };
+		571F302F1B104A6F00872E6A /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 571F302E1B104A6F00872E6A /* SettingsManager.m */; };
 		574690481B0E314B004E2A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574690471B0E314B004E2A3E /* main.m */; };
 		5746904B1B0E314B004E2A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5746904A1B0E314B004E2A3E /* AppDelegate.m */; };
 		5746904E1B0E314B004E2A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5746904D1B0E314B004E2A3E /* ViewController.m */; };
@@ -15,7 +21,6 @@
 		574690561B0E314B004E2A3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574690541B0E314B004E2A3E /* LaunchScreen.xib */; };
 		574690621B0E314B004E2A3E /* FranklyMeTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574690611B0E314B004E2A3E /* FranklyMeTaskTests.m */; };
 		574690701B0E3AB9004E2A3E /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5746906F1B0E3AB9004E2A3E /* CustomTableCell.m */; };
-		574690761B0E3AF7004E2A3E /* CelebCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574690751B0E3AF7004E2A3E /* CelebCollectionCell.m */; };
 		57A16F421B0F94A4007C8407 /* SampleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57A16F411B0F94A4007C8407 /* SampleImage.png */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571F301D1B1044C800872E6A /* ServerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDataManager.h; sourceTree = "<group>"; };
+		571F301E1B1044C800872E6A /* ServerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerDataManager.m; sourceTree = "<group>"; };
+		571F301F1B1044C800872E6A /* ServerDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDataParser.h; sourceTree = "<group>"; };
+		571F30201B1044C800872E6A /* ServerDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerDataParser.m; sourceTree = "<group>"; };
+		571F30231B10452D00872E6A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		571F30241B10495200872E6A /* CelebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebView.h; sourceTree = "<group>"; };
+		571F30251B10495200872E6A /* CelebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebView.m; sourceTree = "<group>"; };
+		571F30271B10495C00872E6A /* CelebData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebData.h; sourceTree = "<group>"; };
+		571F30281B10495C00872E6A /* CelebData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebData.m; sourceTree = "<group>"; };
+		571F302A1B104A5100872E6A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		571F302B1B104A5100872E6A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		571F302D1B104A6F00872E6A /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		571F302E1B104A6F00872E6A /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
 		574690421B0E314B004E2A3E /* FranklyMeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranklyMeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574690461B0E314B004E2A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574690471B0E314B004E2A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,8 +63,6 @@
 		574690611B0E314B004E2A3E /* FranklyMeTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FranklyMeTaskTests.m; sourceTree = "<group>"; };
 		5746906E1B0E3AB9004E2A3E /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
 		5746906F1B0E3AB9004E2A3E /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
-		574690741B0E3AF7004E2A3E /* CelebCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebCollectionCell.h; sourceTree = "<group>"; };
-		574690751B0E3AF7004E2A3E /* CelebCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebCollectionCell.m; sourceTree = "<group>"; };
 		57A16F411B0F94A4007C8407 /* SampleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +105,7 @@
 		574690441B0E314B004E2A3E /* FranklyMeTask */ = {
 			isa = PBXGroup;
 			children = (
+				571F30231B10452D00872E6A /* Constants.h */,
 				57A16F411B0F94A4007C8407 /* SampleImage.png */,
 				5746906B1B0E3A95004E2A3E /* Custom Views */,
 				5746906C1B0E3A95004E2A3E /* Network */,
@@ -108,6 +125,10 @@
 		574690451B0E314B004E2A3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				571F302D1B104A6F00872E6A /* SettingsManager.h */,
+				571F302E1B104A6F00872E6A /* SettingsManager.m */,
+				571F302A1B104A5100872E6A /* Reachability.h */,
+				571F302B1B104A5100872E6A /* Reachability.m */,
 				574690461B0E314B004E2A3E /* Info.plist */,
 				574690471B0E314B004E2A3E /* main.m */,
 			);
@@ -134,10 +155,10 @@
 		5746906B1B0E3A95004E2A3E /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				571F30241B10495200872E6A /* CelebView.h */,
+				571F30251B10495200872E6A /* CelebView.m */,
 				5746906E1B0E3AB9004E2A3E /* CustomTableCell.h */,
 				5746906F1B0E3AB9004E2A3E /* CustomTableCell.m */,
-				574690741B0E3AF7004E2A3E /* CelebCollectionCell.h */,
-				574690751B0E3AF7004E2A3E /* CelebCollectionCell.m */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -145,6 +166,10 @@
 		5746906C1B0E3A95004E2A3E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				571F301D1B1044C800872E6A /* ServerDataManager.h */,
+				571F301E1B1044C800872E6A /* ServerDataManager.m */,
+				571F301F1B1044C800872E6A /* ServerDataParser.h */,
+				571F30201B1044C800872E6A /* ServerDataParser.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -152,6 +177,8 @@
 		5746906D1B0E3A95004E2A3E /* Parsing */ = {
 			isa = PBXGroup;
 			children = (
+				571F30271B10495C00872E6A /* CelebData.h */,
+				571F30281B10495C00872E6A /* CelebData.m */,
 			);
 			path = Parsing;
 			sourceTree = "<group>";
@@ -257,11 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574690761B0E3AF7004E2A3E /* CelebCollectionCell.m in Sources */,
+				571F30211B1044C800872E6A /* ServerDataManager.m in Sources */,
+				571F30221B1044C800872E6A /* ServerDataParser.m in Sources */,
 				5746904E1B0E314B004E2A3E /* ViewController.m in Sources */,
+				571F302C1B104A5100872E6A /* Reachability.m in Sources */,
+				571F30261B10495200872E6A /* CelebView.m in Sources */,
 				5746904B1B0E314B004E2A3E /* AppDelegate.m in Sources */,
 				574690481B0E314B004E2A3E /* main.m in Sources */,
 				574690701B0E3AB9004E2A3E /* CustomTableCell.m in Sources */,
+				571F30291B10495C00872E6A /* CelebData.m in Sources */,
+				571F302F1B104A6F00872E6A /* SettingsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
